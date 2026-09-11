@@ -5,21 +5,18 @@ public class ToaDo {
     private float x;
     private float y;
 
-    // Phương thức khởi tạo không tham số
     public ToaDo() {
         this.ten = "O";
         this.x = 0.0f;
         this.y = 0.0f;
     }
 
-    // Phương thức khởi tạo đầy đủ tham số
     public ToaDo(String ten, float x, float y) {
         this.ten = ten;
         this.x = x;
         this.y = y;
     }
 
-    // Getter và Setter
     public String getTen() {
         return ten;
     }
